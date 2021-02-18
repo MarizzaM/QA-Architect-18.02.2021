@@ -3,7 +3,7 @@ package com.app;
 public class TriangleWith90 extends Triangle{
 
     public TriangleWith90(float m_a, float m_b, float m_c) {
-        super(m_a, m_b, m_c, m_a);
+        super(m_a, m_b, m_c);
     }
 
     @Override
