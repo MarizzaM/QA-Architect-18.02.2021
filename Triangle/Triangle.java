@@ -17,6 +17,6 @@ public class Triangle {
     }
 
     public double getHekef(){
-        return this.m_a+this.m_b+this.m_c;
+        return m_a+m_b+m_c;
     }
 }
