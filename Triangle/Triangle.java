@@ -13,7 +13,7 @@ public class Triangle {
 
     public double getArea(){
         float p = (m_a + m_b + m_c)/2;
-        return Math.sqrt(p*(p-m_b)*(p-m_b)*(p-m_c));
+        return Math.sqrt(p*(p-m_a)*(p-m_b)*(p-m_c));
     }
 
     public double getHekef(){
